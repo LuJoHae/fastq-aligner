@@ -1,0 +1,1 @@
+import fastq_aligner.metadata_manager

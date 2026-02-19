@@ -1,0 +1,15 @@
+[project]
+name = "fastq-aligner"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "datalair",
+    "ipykernel>=7.2.0",
+    "polars>=1.38.1",
+    "remote-slurm",
+]
+
+[tool.uv.sources]
+remote-slurm = { git = "https://github.com/LuJoHae/remote-slurm.git" }
+datalair = { git = "https://github.com/LuJoHae/datalair.git" }
